@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 //   typeDefs,
 //   resolvers,
 //   context: authMiddleware,
-// });
+// })
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

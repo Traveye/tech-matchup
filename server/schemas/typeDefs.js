@@ -21,7 +21,7 @@ const typeDefs = gql`
    }
 
    type Mutation {
-      createMatchup(thoughtText: String!): Matchup
+      createMatchup(body: String!): Matchup
       createVote(_id: ID!, techNum: Number!): Matchup
    }
 `;
